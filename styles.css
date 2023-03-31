@@ -514,31 +514,31 @@ body{
 }
 
 .html-bar{
-    width: 89%;
+    width: 9%;
 }
 
 .py-bar{
-    width: 95%;
+    width: 5%;
 }
 
 .kivy-bar{
-    width: 75%;
+    width: 5%;
 }
 
 .js-bar{
-    width: 89%;
+    width: 9%;
 }
 
 .java-bar{
-    width: 80%;
+    width: 0%;
 }
 
 .sol-bar{
-    width: 67%;
+    width: 7%;
 }
 
 .css-bar{
-    width: 89%;
+    width: 9%;
 }
 
 .stacks-content{
@@ -619,10 +619,6 @@ body{
     transition: 1.6s ease;
 }
 
-.contact{
-    min-height: 70vh;
-}
-
 .contact-form{
     display: grid;
     place-items: center;
@@ -679,9 +675,8 @@ form textarea{
 }
 
 .copyright{
-    margin-top: 2rem;
+    margin-top: 4rem;
     padding: 10px;
-    background: var(--main-color);
     text-align: center;
     color: var(--TEXT-color);
 }
