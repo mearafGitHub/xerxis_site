@@ -7,8 +7,8 @@ import img2 from "@public/OIG-1.jpeg";
 
 
 const CARDS = [
-  { title: "LIDO", coin: "ETH", fixed: 4.49, variable: 4.46 },
-  { title: "ROCKET", coin: "ETH", fixed: 4.26, variable: 4.2 },
+  { title: "LIDO", coin: "ETH", value: 4.49, variable: 4.46 },
+  { title: "ROCKET", coin: "ETH", value: 4.26, variable: 4.2 },
 ];
 
 const Section5 = () => {
