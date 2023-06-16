@@ -1,6 +1,9 @@
 import React from "react";
-import { Typography, Container, Grid } from "@mui/material";
+import { Typography, Stack, Container, Grid } from "@mui/material";
 import YieldCard from "@/src/components/cards/YieldCard";
+
+import img1 from "@public/OIG-1.jpeg";
+import img2 from "@public/OIG-1.jpeg";
 
 const CARDS = [
   { title: "LIDO", coin: "ETH", fixed: 4.49, variable: 4.46 },
@@ -10,21 +13,24 @@ const CARDS = [
 const Section5 = () => {
   return (
     <Container maxWidth="md" sx={{ mt: 15 }}>
-      <Typography variant="h4">ETH STAKING</Typography>
+      <Typography variant="h4">CHARACTERS</Typography>
 
       <Typography
         sx={{ letterSpacing: "1.5px", maxWidth: 720 }}
         color="text.secondary"
       >
-        The base rate of the metaverse. Trade ETH Staking markets on Lido and
-        Rocket, all you need is ETH to trade.
+        You have variety of charcters to choose from. Each have unique superpowers and prices. 
+        You either have to earn them or buy outright from your wallet.
       </Typography>
 
       <Grid container spacing={3} sx={{ mt: 3 }}>
         {CARDS.map((item, i) => (
           <Grid item xs={12} sm={6} md={4} key={i}>
-            <YieldCard {...item} />
-          </Grid>
+            <Stack direction="column" tem xs={12} sm={6} md={4} key={i}>
+              <YieldCard {...item} />
+            </Stack>
+        </Grid>
+         
         ))}
       </Grid>
     </Container>

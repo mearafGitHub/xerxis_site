@@ -60,6 +60,7 @@ const Home = () => {
           <Section5 />
 
           <Section6 />
+          
         </Container>
 
         <Section7 />

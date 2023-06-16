@@ -4,7 +4,7 @@ import { Card, Stack, Avatar, Typography, Button, Box } from "@mui/material";
 interface Props {
   title: string;
   coin: string;
-  fixed: number;
+  value: number;
   variable: number;
 }
 
