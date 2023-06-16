@@ -3,9 +3,9 @@ import { Typography, Container, Grid } from "@mui/material";
 import YieldCard from "@/src/components/cards/YieldCard";
 
 const CARDS = [
-  { title: "AAVE", coin: "USDC", fixed: 0.38, variable: 1.82 },
-  { title: "AAVE", coin: "DAI", fixed: 0.14, variable: 0.87 },
-  { title: "COMPOUND", coin: "DAI", fixed: 0.88, variable: 1.1 },
+  { title: "AAVE", coin: "USDC", value: 0.38, variable: 1.82 },
+  { title: "AAVE", coin: "DAI", value: 0.14, variable: 0.87 },
+  { title: "COMPOUND", coin: "DAI", value: 0.88, variable: 1.1 },
 ];
 
 const Section6 = () => {
