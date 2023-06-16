@@ -60,7 +60,7 @@ const YieldCard: React.FC<Props> = ({ title, coin, value, variable }) => {
           <Box>
             <Typography variant="body2">XCHG RATE</Typography>
             <Typography variant="h6" color="info.dark">
-              {variable}%
+              {variable} per token
             </Typography>
           </Box>
         </Stack>

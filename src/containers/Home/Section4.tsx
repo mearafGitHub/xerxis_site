@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Container, Grid } from "@mui/material";
+import { Typography, Stack, Container, Grid } from "@mui/material";
 import YieldCard from "@/src/components/cards/YieldCard";
 
 const CARDS = [
@@ -23,7 +23,9 @@ const Section4 = () => {
       <Grid container spacing={3} sx={{ mt: 3 }}>
         {CARDS.map((item, i) => (
           <Grid item xs={12} sm={6} md={4} key={i}>
-            <YieldCard {...item} />
+            <Stack direction="column">
+              <YieldCard {...item} />
+            </Stack>           
           </Grid>
         ))}
       </Grid>
