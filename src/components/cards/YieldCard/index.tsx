@@ -8,13 +8,13 @@ interface Props {
   variable: number;
 }
 
-const YieldCard: React.FC<Props> = ({ title, coin, fixed, variable }) => {
+const YieldCard: React.FC<Props> = ({ title, coin, value, variable }) => {
   return (
     <Card
       sx={{
         p: 2,
         bgcolor: "rgba(26,21,49,.25)",
-        border: "1px solid #1c1927",
+        border: "1px solid rgba(77,229,255,.08)",
         width: "100%",
         backdropFilter: "blur(4px)",
         transition: "all 0.5s ease",
@@ -27,7 +27,7 @@ const YieldCard: React.FC<Props> = ({ title, coin, fixed, variable }) => {
     >
       <Stack spacing={2}>
         {/* Coin */}
-        <Stack direction="row" spacing={1} alignItems="center">
+        <Stack direction="column" spacing={1} alignItems="center">
           <Avatar sx={{ height: 32, width: 32 }} />
 
           <Box>
@@ -51,14 +51,14 @@ const YieldCard: React.FC<Props> = ({ title, coin, fixed, variable }) => {
           justifyContent="space-between"
         >
           <Box>
-            <Typography variant="body2">FIXED RATE</Typography>
+            <Typography variant="body2">PRICE</Typography>
             <Typography variant="h6" color="info.light">
-              {fixed}%
+              ${value} 
             </Typography>
           </Box>
 
           <Box>
-            <Typography variant="body2">VARIABLE RATE</Typography>
+            <Typography variant="body2">XCHG RATE</Typography>
             <Typography variant="h6" color="info.dark">
               {variable}%
             </Typography>

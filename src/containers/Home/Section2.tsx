@@ -9,21 +9,22 @@ import {
   useTheme
 } from "@mui/material";
 import Image from "next/image";
-import Logo from "public/Xerxis-Logo.svg";
+import Logo from "public/Xerxis-Logo-v1.svg";
 
 const NeonBox = styled(Box)(({ theme }) => ({
-  mt: 10,
+  mt: 5,
   position: "absolute",
   height: 300,
   width: 400,
+  borderRadius: "25px",
   border: "3px solid #000",
-  borderColor: "#004e95",
+  
   boxShadow:
-    "inset -1px -1px 20px 0 rgba(255,74,169,.3), 2px 2px 20px 0 rgba(255,74,169,.32), inset 3px 3px 20px -2px rgba(0,78,149,.48), -8px 1px 18px 0 rgba(0,78,149,.42)",
+    "inset -1px -1px 20px 0 rgba(255,74,169,.3), 2px 2px 20px 0 rgba(444,74,169,.32), inset 3px 3px 20px -2px rgba(5,78,149,.48), -8px 1px 18px 0 rgba(0,78,149,.42)",
   borderImage: "linear-gradient(to right, #3966FF, #FF599C) 1",
   transformStyle: "preserve-3d",
   willChange: "transform, opacity",
-  transition: "all 0.3s ease",
+  transition: "all 0.5s ease",
   zIndex: -1,
   [theme.breakpoints.up("sm")]: {
     mt: 6,
@@ -64,12 +65,12 @@ const Section2 = () => {
       >
         <Image
           src={Logo}
-          alt="Voltz Logo"
+          alt="Xerxis Logo"
           style={{ width: "100%", height: 250, objectFit: "contain" }}
         />
 
         <Typography variant="h5" sx={{ mt: -10, mb: 5 }}>
-          RISE OF ROYALS, AKA ZRXs
+          Quest for Oassis
         </Typography>
 
         <MainButton>Start Playing</MainButton>

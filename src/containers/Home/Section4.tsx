@@ -3,22 +3,21 @@ import { Typography, Container, Grid } from "@mui/material";
 import YieldCard from "@/src/components/cards/YieldCard";
 
 const CARDS = [
-  { title: "AAVE", coin: "USDC", fixed: 0.38, variable: 1.82 },
-  { title: "AAVE", coin: "DAI", fixed: 0.14, variable: 0.87 },
-  { title: "COMPOUND", coin: "DAI", fixed: 0.88, variable: 1.1 },
+  { title: "GOLD", coin: "ADA", value: 10, variable: 1.82 },
+  { title: "SILVER", coin: "DAI", value: 6, variable: 0.87 },
+  { title: "BRONZ", coin: "DAI", value: 2, variable: 1.1 },
 ];
 
 const Section4 = () => {
   return (
     <Container maxWidth="md" sx={{ mt: 15 }}>
-      <Typography variant="h4">STABLECOIN YIELD</Typography>
+      <Typography variant="h4">EARN PLAYING</Typography>
 
       <Typography
         sx={{ letterSpacing: "1.5px", maxWidth: 720 }}
         color="text.secondary"
       >
-        Aave and Compound stablecoin markets are the backbone of DeFi. Trade
-        fixed and variable rates on these markets today.
+        Successfull complition of a game has a generous reward. Rewareds vary according to your performance on tasks of the game.
       </Typography>
 
       <Grid container spacing={3} sx={{ mt: 3 }}>

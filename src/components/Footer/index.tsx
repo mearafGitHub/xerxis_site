@@ -21,7 +21,7 @@ const Footer = () => {
         direction="row"
         alignItems="center"
         justifyContent={{ xs: "space-evenly", sm: "space-between" }}
-        sx={{ px: 3, py: 0.3 }}
+        sx={{ px: 3.5, py: 0.3 }}
       >
         {/* Left */}
         <Stack
@@ -33,7 +33,7 @@ const Footer = () => {
 
           <MenuButton>TWITTER</MenuButton>
 
-          <MenuButton>STUDIO</MenuButton>
+          <MenuButton>DOWNLOAD</MenuButton>
         </Stack>
 
         {/* Right */}
@@ -44,9 +44,11 @@ const Footer = () => {
         >
           <MenuButton>LITEPAPER</MenuButton>
 
-          <MenuButton>T&CS</MenuButton>
+          <MenuButton>TERMS-&-CONDITIONS</MenuButton>
 
-          <MenuButton>JOBS</MenuButton>
+          <MenuButton>COPY RIGHT</MenuButton>
+
+          <MenuButton>VACANCY</MenuButton>
         </Stack>
       </Stack>
     </AppBar>

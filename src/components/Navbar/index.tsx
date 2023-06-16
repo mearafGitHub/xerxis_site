@@ -11,7 +11,7 @@ import {
   useTheme,
 } from "@mui/material";
 import Image from "next/image";
-import Logo from "public/logo.svg";
+import Logo from "public/Small-logo.svg";
 import MainButton from "../buttons/MainButton";
 import MenuIcon from "@mui/icons-material/Menu";
 
@@ -76,8 +76,9 @@ const Navbar = () => {
           direction="row"
           alignItems="center"
           justifyContent="flex-start"
-          sx={{ pl: 1, flex: 1 }}
-          spacing={5}
+          sx={{ pl: 0, flex: 1 }}
+          spacing={5
+          }
         >
           <Image
             src={Logo}
@@ -93,9 +94,9 @@ const Navbar = () => {
               animation: `${resourceKeyframe} 3s infinite ease`,
             }}
           >
-            <CircleIcon sx={{ fontSize: 6, mr: 2 }} />
+            <CircleIcon sx={{ fontSize: 12, mr: 2 }} />
             <Typography variant="body2" sx={{ letterSpacing: "3px" }}>
-              RESOURCE CENTRE
+              NFT MARKET
             </Typography>
           </Stack>
         </Stack>
@@ -109,7 +110,7 @@ const Navbar = () => {
             spacing={3}
             flexWrap="wrap"
           >
-            <MenuButton>MARKETS</MenuButton>
+            <MenuButton>GUIDE</MenuButton>
 
             <MenuButton>PLAYERS</MenuButton>
 
@@ -120,10 +121,10 @@ const Navbar = () => {
               </Stack>
             </MenuButton>
 
-            <MenuButton>BACKERS</MenuButton>
+            <MenuButton>CHARACTERS</MenuButton>
 
             <MainButton size="small" sx={{ height: 32 }}>
-              TRADE
+              CONNECT WALLET
             </MainButton>
           </Stack>
         )}

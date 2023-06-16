@@ -1,6 +1,8 @@
 import HomeTitle from "@/src/components/HomeTitle";
 import React from "react";
 import { Stack, Container, Typography } from "@mui/material";
+import Image from "next/image";
+import Logo from "public/Xerxis-Logo-v1.svg";
 
 type StatProps = {
   title: string;
@@ -43,8 +45,24 @@ const Section3 = () => {
         spacing={2}
         sx={{ mt: 3 }}
       >
-        <Stat title=">$8Bn" subtitle="NOTIONAL TRADED" />
-        <Stat title=">$11Bn" subtitle="NOTIONAL LIQUIDITY PROVIDED" />
+        <Stack direction="column">
+          <Stat title="Quest for Oasis" subtitle="SURVIVERS SEEKING REST" />
+          <Image
+            src={Logo}
+            alt="Xerxis Logo"
+            style={{ width: "20%", height: 50, objectFit: "contain" }}
+          />
+        </Stack>
+
+        <Stack direction="column">
+          <Stat title="Rise of the Dynasty" subtitle="SUCCEDING OFFSPRINGS OF XERXIS" />
+          <Image
+            src={Logo}
+            alt="Xerxis Logo"
+            style={{ width: "20%", height: 50, objectFit: "contain" }}
+          />
+        </Stack>
+
       </Stack>
     </Container>
   );
