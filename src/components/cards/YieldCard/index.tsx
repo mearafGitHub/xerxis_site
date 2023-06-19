@@ -19,9 +19,10 @@ const YieldCard: React.FC<Props> = ({ title, coin, value, variable }) => {
         backdropFilter: "blur(4px)",
         transition: "all 0.5s ease",
         backgroundImage: "none",
+        boxShadow: "0 0 40px 8px rgba(77,229,255,.08)",
         "&:hover": {
           boxShadow: "0 0 40px 8px rgba(77,229,255,.08)",
-          transform: "translate(0,-2px)",
+          transform: "translate(0,-3px)",
         },
       }}
     >
@@ -53,12 +54,12 @@ const YieldCard: React.FC<Props> = ({ title, coin, value, variable }) => {
           <Box>
             <Typography variant="body2">PRICE</Typography>
             <Typography variant="h6" color="info.light">
-              ${value} 
+             {value} ADA
             </Typography>
           </Box>
 
           <Box>
-            <Typography variant="body2">XCHG RATE</Typography>
+            <Typography variant="body2">EXCHANGE RATE</Typography>
             <Typography variant="h6" color="info.dark">
               {variable} per token
             </Typography>

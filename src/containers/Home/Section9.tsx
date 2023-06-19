@@ -34,7 +34,7 @@ const Section9 = () => {
           variant="h2"
           sx={{ fontWeight: "bold", mb: 3, textAlign: "center" }}
         >
-          People Powered Protocol
+          Community of Inspiring People
         </Typography>
 
         <Typography
@@ -46,17 +46,17 @@ const Section9 = () => {
           }}
           color="text.secondary"
         >
-          It's all about you, it always has been.
+          Meet cool people from all around the Globe.
         </Typography>
 
-        <MainButton sx={{ mb: 5 }}>JOIN DISCORD</MainButton>
+        <MainButton sx={{ mb: 5 }}>JOIN OUR DISCORD</MainButton>
 
         <Typography
           variant="body2"
           color="text.secondary"
           sx={{ pb: 2, whiteSpace: "pre-line", ml: -10 }}
         >
-          {"They don't know\nI'm on Voltz discord"}
+          {"Take inspiration to do awesome stuff.\nContribute to earn.\nGive your comments/suggestions.\nAnd more..."}
         </Typography>
       </Stack>
 

@@ -110,18 +110,17 @@ const Navbar = () => {
             spacing={3}
             flexWrap="wrap"
           >
-            <MenuButton>GUIDE</MenuButton>
-
-            <MenuButton>PLAYERS</MenuButton>
-
             <MenuButton>
               <Stack direction="row" alignItems="center">
-                <Typography variant="body2">DEVELOPERS</Typography>
+                <Typography variant="body2">INTRO</Typography>
                 <KeyboardArrowDownIcon fontSize="small" sx={{ ml: 0.5 }} />
               </Stack>
             </MenuButton>
-
             <MenuButton>CHARACTERS</MenuButton>
+
+            <MenuButton>OTHER PROJECTS</MenuButton>
+
+            <MenuButton>DEVELOPERS</MenuButton>
 
             <MainButton size="small" sx={{ height: 32 }}>
               CONNECT WALLET

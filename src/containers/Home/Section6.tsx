@@ -13,18 +13,16 @@ const Section6 = () => {
     <Container maxWidth="md" sx={{ mt: 15 }}>
       <Typography variant="h4">
         <Typography variant="h4" component="span" color="primary.light">
-          BORROWING
+          Monetising
         </Typography>{" "}
-        MARKETS
+        - Make your Expereince productive
       </Typography>
 
       <Typography
         sx={{ letterSpacing: "1.5px", maxWidth: 720 }}
         color="text.secondary"
       >
-        Trade fixed or variable rates on stablecoins and ETH borrow markets.
-        Convert variable borrowing costs into fixed borrowing costs with a few
-        clicks.
+        Game Items can be sold at in-game transaction as well as on the market section of the official game website: https://www.xerxis.io/game/markets
       </Typography>
 
       <Grid container spacing={3} sx={{ mt: 3 }}>
