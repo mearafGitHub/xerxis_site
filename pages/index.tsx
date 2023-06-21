@@ -6,8 +6,10 @@ import Section3 from "@/src/containers/Home/Section3";
 import { Container, Box } from "@mui/material";
 import Image from "next/image";
 import React from "react";
+
 import Bg1 from "@/src/assets/images/bg1.svg";
 import Bg2 from "@/src/assets/images/bg2.svg";
+
 import Section4 from "@/src/containers/Home/Section4";
 import Section5 from "@/src/containers/Home/Section5";
 import Section6 from "@/src/containers/Home/Section6";

@@ -76,20 +76,18 @@ const Section7 = () => {
         sx={{ textAlign: "center", mb: { xs: 5, md: 12 } }}
       >
         <HomeTitle sx={{ mb: 1.5 }} color={theme.palette.secondary.light}>
-          THE PLAYERS
+          MULTI-PLAYERS
         </HomeTitle>
 
         <Typography variant="h2" sx={{ fontWeight: "bold", mb: 2 }}>
-          Trade Rates Like a Pro
+          Get Realtime Experience
         </Typography>
 
         <Typography
           sx={{ letterSpacing: "1.5px", maxWidth: 720 }}
           color="text.secondary"
         >
-          Voltz is foundational defi infrastructure, unlocking waves of
-          composable, community-led opportunities for builders, innovators and
-          creators.
+          Xerxis allows to play with your firends or randome person online. We explain how you can enable this feature. (Comming Soon...)
         </Typography>
       </Stack>
 

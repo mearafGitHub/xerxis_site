@@ -4,12 +4,12 @@ import YieldCard from "@/src/components/cards/YieldCard";
 
 import gold_coin from "public/GoldCoin.svg";
 import silver_coin from "public/SilverCoin.png";
-import coper_coin from "public/CoperCoin2.png";
+import copper_coin from "public/CopperCoin2.png";
 
 const CARDS = [
   { title: "GOLD", coin: "ADA", value: 10, variable: 1.82, pic: gold_coin },
   { title: "SILVER", coin: "DAI", value: 6, variable: 0.87, pic: silver_coin },
-  { title: "COPER", coin: "DAI", value: 2, variable: 1.1, pic: coper_coin },
+  { title: "COPPER", coin: "DAI", value: 2, variable: 1.1, pic: copper_coin },
 ];
 
 const Section4 = () => {
