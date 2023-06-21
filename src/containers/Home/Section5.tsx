@@ -17,18 +17,18 @@ import ManArcherRoyal from "public/characters/Man-Archer-Royal.jpeg";
 import LadyArcher2 from "public/characters/Lady-Archer2.jpeg";
 
 const CARDS = [
-  { title: "LadyArcherRoyal", coin: "ETH", value: 4.49, variable: 4.46, pic: LadyArcherRoyal},
-  { title: "LadyArcher2", coin: "ETH", value: 4.26, variable: 4.2, pic: LadyArcher2 },
-  { title: "RoyalMenWarriors", coin: "ETH", value: 4.26, variable: 4.2, pic: RoyalMenWarriors },
-  { title: "ManPowerRoyal", coin: "ETH", value: 4.49, variable: 4.46, pic: ManPowerRoyal},
-  { title: "LadyArcherWierd", coin: "ETH", value: 4.26, variable: 4.2, pic: LadyArcherWierd },
-  { title: "ManArcherRoyal", coin: "ETH", value: 4.49, variable: 4.46, pic: ManArcherRoyal},
-  { title: "RoyalMan", coin: "ETH", value: 4.26, variable: 4.2, pic: RoyalMan },
-  { title: "RoyalArcher", coin: "ETH", value: 4.49, variable: 4.46, pic: RoyalArcher},
-  { title: "GuyArcher3", coin: "ETH", value: 4.26, variable: 4.2, pic: GuyArcher3 },
-  { title: "LadyArcher", coin: "ETH", value: 4.26, variable: 4.2, pic: LadyArcher },
-  { title: "MenWarriors2", coin: "ETH", value: 4.26, variable: 4.2, pic: MenWarriors2 },
-  { title: "GuyArcher3", coin: "ETH", value: 4.49, variable: 4.46, pic: GuyArcher2},
+  { title: "LadyArcherRoyal", detail: "ETH", value: 4.49, variable: 4.46, pic: LadyArcherRoyal},
+  { title: "LadyArcher2", detail: "ETH", value: 4.26, variable: 4.2, pic: LadyArcher2 },
+  { title: "RoyalMenWarriors", detail: "ETH", value: 4.26, variable: 4.2, pic: RoyalMenWarriors },
+  { title: "ManPowerRoyal", detail: "ETH", value: 4.49, variable: 4.46, pic: ManPowerRoyal},
+  { title: "LadyArcherWierd", detail: "ETH", value: 4.26, variable: 4.2, pic: LadyArcherWierd },
+  { title: "ManArcherRoyal", detail: "ETH", value: 4.49, variable: 4.46, pic: ManArcherRoyal},
+  { title: "RoyalMan", detail: "ETH", value: 4.26, variable: 4.2, pic: RoyalMan },
+  { title: "RoyalArcher", detail: "ETH", value: 4.49, variable: 4.46, pic: RoyalArcher},
+  { title: "GuyArcher3", detail: "ETH", value: 4.26, variable: 4.2, pic: GuyArcher3 },
+  { title: "LadyArcher", detail: "ETH", value: 4.26, variable: 4.2, pic: LadyArcher },
+  { title: "MenWarriors2", detail: "ETH", value: 4.26, variable: 4.2, pic: MenWarriors2 },
+  { title: "GuyArcher3", detail: "ETH", value: 4.49, variable: 4.46, pic: GuyArcher2},
 ];
 
 const Section5 = () => {

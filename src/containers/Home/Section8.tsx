@@ -31,11 +31,11 @@ const Section8 = () => {
     <Container ref={containerRef} maxWidth="md" sx={{ mt: 15 }}>
       <Stack alignItems="center" sx={{ textAlign: "center", mb: 5 }}>
         <HomeTitle sx={{ mb: 1.5 }} color={theme.palette.primary.contrastText}>
-          THE PLAYGROUND
+          THE TECH
         </HomeTitle>
 
         <Typography variant="h2" sx={{ fontWeight: "bold", mb: 2 }}>
-          Build on Voltz
+          Built on Cardno
         </Typography>
 
         <Typography

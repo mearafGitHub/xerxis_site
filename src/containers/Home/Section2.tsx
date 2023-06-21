@@ -16,12 +16,11 @@ const NeonBox = styled(Box)(({ theme }) => ({
   position: "absolute",
   height: 300,
   width: 400,
-  borderRadius: "25px",
   border: "3px solid #000",
   
   boxShadow:
     "inset -1px -1px 20px 0 rgba(255,74,169,.3), 2px 2px 20px 0 rgba(444,74,169,.32), inset 3px 3px 20px -2px rgba(5,78,149,.48), -8px 1px 18px 0 rgba(0,78,149,.42)",
-  borderImage: "linear-gradient(to right, #3966FF, #FF599C) 1",
+  borderImage: "linear-gradient(to right, #3966FF, #FF599C) 2",
   transformStyle: "preserve-3d",
   willChange: "transform, opacity",
   transition: "all 0.5s ease",

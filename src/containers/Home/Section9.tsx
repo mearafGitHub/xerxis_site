@@ -47,15 +47,17 @@ const Section9 = () => {
           color="text.secondary"
         >
           Meet cool people from all around the Globe.
+          Join a growing community of hackers, innovators and developers
+          building on Cardano. Let's make a dent in the web3 space. Join The Fam.
         </Typography>
 
-        <MainButton sx={{ mb: 5 }}>JOIN OUR DISCORD</MainButton>
+        <MainButton sx={{ mb: 5 }}>JOIN ON DISCORD</MainButton>
 
         <Typography
           variant="body2"
           color="text.secondary"
           sx={{ pb: 2, whiteSpace: "pre-line", ml: -10 }}
-        >
+        > 
           {"Take inspiration to do awesome stuff.\nContribute to earn.\nGive your comments/suggestions.\nAnd more..."}
         </Typography>
       </Stack>
@@ -63,7 +65,6 @@ const Section9 = () => {
       <Container maxWidth="sm" sx={{ mt: -10 }}>
         <Stack direction="row" alignItems="flex-end" justifyContent="center">
           <StyledPerson src={PersonImg1} alt="Person 1" sx={{ pb: 5 }} />
-
           <StyledPerson src={PersonImg2} alt="Person 2" sx={{ width: "60%" }} />
 
           <Hidden mdDown>

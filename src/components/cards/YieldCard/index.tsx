@@ -9,7 +9,7 @@ interface Props {
   variable: number;
 }
 
-const YieldCard: React.FC<Props> = ({ title, coin, value, variable, pic }) => {
+const YieldCard: React.FC<Props> = ({ title, detail, value, variable, pic }) => {
   return (
     <Card
       sx={{
@@ -17,6 +17,7 @@ const YieldCard: React.FC<Props> = ({ title, coin, value, variable, pic }) => {
         bgcolor: "rgba(26,21,49,.25)",
         border: "0.2px solid rgba(77,229,255,.08)",
         width: "100%",
+        paddingTop: 0,
         backdropFilter: "blur(4px)",
         transition: "all 0.5s ease",
         backgroundImage: "none",
@@ -27,12 +28,12 @@ const YieldCard: React.FC<Props> = ({ title, coin, value, variable, pic }) => {
       }}
     >
       <Stack spacing={2}>
-        {/* Coin */}
+        {/* detail */}
           <Stack direction="row" spacing={2} alignItems="left" justifyContent="space-between">
           <Image
               src={pic}
               alt={title}
-              style={{ width: "100%", height: 250, objectFit: "contain"}}
+              style={{ width: "100%", pt: 0, height: "75%", objectFit: "contain"}}
             />
           </Stack>
 
@@ -45,7 +46,7 @@ const YieldCard: React.FC<Props> = ({ title, coin, value, variable, pic }) => {
                   {title}
                 </Typography>
                 <Typography variant="body2" color="primary.light">
-                  {coin}
+                  {detail}
                 </Typography>
               </Box>
           </Stack>
@@ -81,7 +82,7 @@ const YieldCard: React.FC<Props> = ({ title, coin, value, variable, pic }) => {
                   bgcolor: "secondary.main",
                 },
               })}
-          > TRADE
+          > BUY
           </Button>
         </Stack>
 
