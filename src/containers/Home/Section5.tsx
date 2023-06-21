@@ -2,12 +2,15 @@ import React from "react";
 import { Typography, Stack, Container, Grid } from "@mui/material";
 import YieldCard from "@/src/components/cards/YieldCard";
 
-import img1 from "@public/OIG-1.jpeg";
-import img2 from "@public/OIG-1.jpeg";
-
+import chr1 from "@public/OIG-1.jpeg";
+import chr2 from "@public/OIG-1.jpeg";
+import chr3 from "@public/OIG-1.jpeg";
+import chr3 from "@public/OIG-1.jpeg";
+import chr4 from "@public/OIG-1.jpeg";
+import chr6 from "@public/OIG-1.jpeg";
 
 const CARDS = [
-  { title: "LIDO", coin: "ETH", value: 4.49, variable: 4.46 },
+  { title: "LIDO", coin: "ETH", value: 4.49, variable: 4.46, pic:  },
   { title: "ROCKET", coin: "ETH", value: 4.26, variable: 4.2 },
 ];
 

@@ -2,10 +2,14 @@ import React from "react";
 import { Typography, Stack, Container, Grid } from "@mui/material";
 import YieldCard from "@/src/components/cards/YieldCard";
 
+import gold_coin from "public/GoldCoin.svg";
+import silver_coin from "public/SilverCoin.png";
+import coper_coin from "public/CoperCoin2.png";
+
 const CARDS = [
-  { title: "GOLD", coin: "ADA", value: 10, variable: 1.82 },
-  { title: "SILVER", coin: "DAI", value: 6, variable: 0.87 },
-  { title: "BRONZ", coin: "DAI", value: 2, variable: 1.1 },
+  { title: "GOLD", coin: "ADA", value: 10, variable: 1.82, pic: gold_coin },
+  { title: "SILVER", coin: "DAI", value: 6, variable: 0.87, pic: silver_coin },
+  { title: "COPER", coin: "DAI", value: 2, variable: 1.1, pic: coper_coin },
 ];
 
 const Section4 = () => {
@@ -17,7 +21,7 @@ const Section4 = () => {
         sx={{ letterSpacing: "1.5px", maxWidth: 720 }}
         color="text.secondary"
       >
-        Successfull complition of a game has a generous reward. Rewareds vary according to your performance on tasks of the game.
+        Successfull complition of a game has a generous reward. Rewards vary according to your performance on tasks of the game.
       </Typography>
 
       <Grid container spacing={3} sx={{ mt: 3 }}>
