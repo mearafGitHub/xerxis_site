@@ -2,27 +2,63 @@ import React from "react";
 import { Typography, Container, Grid } from "@mui/material";
 import YieldCard from "@/src/components/cards/YieldCard";
 
+import Dagger1 from "public/characters/Dagger1.jpeg";
+import Dagger2Big from "public/characters/Dagger2-big.jpeg";
+import Dagger3 from "public/characters/Dagger3.jpeg";
+import FanckyGun from "public/characters/Fancky-Gun.jpeg";
+import WeaponOne from "public/characters/Pl.jpeg";
+import SnipperGun from "public/characters/Snipper-Gun.jpeg";
+import SnipperGun2 from "public/characters/Snipper-Gun-2.jpeg";
+import SnipperGun3 from "public/characters/Sniper-Gun-3.jpeg";
+import NightGun from "public/characters/Night-Gun.jpeg";
+
+import WarDrone from "public/characters/WarDrone.jpeg";
+import WariorJets from "public/characters/Warior-Jets.jpeg";
+import Tank1 from "public/characters/Tank1.jpeg";
+import SecretWeapon from "public/characters/SecretWeapon.jpeg";
+import Sword1 from "public/characters/Snipper-Gun.jpeg";
+import TankDesert from "public/characters/Sword1.jpeg";
+import WarJets2 from "public/characters/War-Jets2.jpeg";
+import WarJets from "public/characters/War-Jets.jpeg";
+
+
 const CARDS = [
-  { title: "AAVE", coin: "USDC", value: 0.38, variable: 1.82 },
-  { title: "AAVE", coin: "DAI", value: 0.14, variable: 0.87 },
-  { title: "COMPOUND", coin: "DAI", value: 0.88, variable: 1.1 },
+  { title: "Tank1", coin: "ETH", value: 4.26, variable: 4.2, pic: Tank1 },
+  { title: "WarDrone", coin: "ETH", value: 4.26, variable: 4.2, pic: WarDrone },
+  { title: "SecretWeapon", coin: "ETH", value: 4.49, variable: 4.46, pic: SecretWeapon},
+  { title: "WariorJets", coin: "ETH", value: 4.26, variable: 4.2, pic: WariorJets },
+  { title: "SecretWeapon", coin: "ETH", value: 4.49, variable: 4.46, pic: SecretWeapon},
+  { title: "Sword1", coin: "ETH", value: 4.26, variable: 4.2, pic: Sword1 },
+  { title: "TankDesert", coin: "ETH", value: 4.49, variable: 4.46, pic: TankDesert},
+  { title: "WarJets2", coin: "ETH", value: 4.26, variable: 4.2, pic: WarJets2 },
+  { title: "WarJets", coin: "ETH", value: 4.26, variable: 4.2, pic: WarJets },
+  { title: "WeaponOne", coin: "ETH", value: 4.49, variable: 4.46, pic: WeaponOne},
+  { title: "SnipperGun3", coin: "ETH", value: 4.26, variable: 4.2, pic: SnipperGun3 },
+  { title: "Dagger1", coin: "ETH", value: 4.26, variable: 4.2, pic: Dagger1 },
+  { title: "SnipperGun", coin: "ETH", value: 4.49, variable: 4.46, pic: SnipperGun},
+  { title: "FancyGun", coin: "ETH", value: 4.26, variable: 4.2, pic: FanckyGun },
+  { title: "SnipperGun2", coin: "ETH", value: 4.49, variable: 4.46, pic: SnipperGun2},
+  { title: "NightGun", coin: "ETH", value: 4.26, variable: 4.2, pic: NightGun },
+  { title: "Dagger3", coin: "ETH", value: 4.49, variable: 4.46, pic: Dagger3},
+  { title: "Dagger2Big", coin: "ETH", value: 4.26, variable: 4.2, pic: Dagger2Big },
 ];
+
 
 const Section6 = () => {
   return (
     <Container maxWidth="md" sx={{ mt: 15 }}>
       <Typography variant="h4">
         <Typography variant="h4" component="span" color="primary.light">
-          Monetising
+          MONEYTISE WEAPONS
         </Typography>{" "}
-        - Make your Expereince productive
+        - Make your Expereince Productive
       </Typography>
 
       <Typography
         sx={{ letterSpacing: "1.5px", maxWidth: 720 }}
         color="text.secondary"
       >
-        Game Items can be sold at in-game transaction as well as on the market section of the official game website: https://www.xerxis.io/game/markets
+        Game Weapons can be sold at in-game transaction as well as on the market section of the official game website: "https://www.xerxis.io/game/markets/" 
       </Typography>
 
       <Grid container spacing={3} sx={{ mt: 3 }}>

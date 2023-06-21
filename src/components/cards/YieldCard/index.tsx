@@ -32,7 +32,7 @@ const YieldCard: React.FC<Props> = ({ title, coin, value, variable, pic }) => {
           <Image
               src={pic}
               alt={title}
-              style={{ width: "100%", height: 250, objectFit: "contain" }}
+              style={{ width: "100%", height: 250, objectFit: "contain"}}
             />
           </Stack>
 
