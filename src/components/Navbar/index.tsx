@@ -96,7 +96,7 @@ const Navbar = () => {
           >
             <CircleIcon sx={{ fontSize: 12, mr: 2 }} />
             <Typography variant="body2" sx={{ letterSpacing: "3px" }}>
-              NFT MARKET
+              MARKET
             </Typography>
           </Stack>
         </Stack>
