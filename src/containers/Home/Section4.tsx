@@ -7,9 +7,9 @@ import silver_coin from "public/SilverCoin.png";
 import copper_coin from "public/CopperCoin2.png";
 
 const CARDS = [
-  { title: "GOLD", value: 10, variable: 1.82, pic: gold_coin },
-  { title: "SILVER", value: 6, variable: 0.87, pic: silver_coin },
-  { title: "COPPER", value: 2, variable: 1.1, pic: copper_coin },
+  { title: "GOLD", value: 10, pic: gold_coin },
+  { title: "SILVER", value: 6, pic: silver_coin },
+  { title: "COPPER", value: 2, pic: copper_coin },
 ];
 
 const Section4 = () => {
