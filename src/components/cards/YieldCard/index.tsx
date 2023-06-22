@@ -28,7 +28,7 @@ const YieldCard: React.FC<Props> = ({ title, detail, value, variable, pic }) => 
       }}
     >
       <Stack spacing={2}>
-        {/* detail */}
+        
           <Stack direction="row" spacing={2} alignItems="left" justifyContent="space-between">
           <Image
               src={pic}
@@ -46,7 +46,7 @@ const YieldCard: React.FC<Props> = ({ title, detail, value, variable, pic }) => 
                   {title}
                 </Typography>
                 <Typography variant="body2" color="primary.light">
-                  {detail}
+                  {variable}
                 </Typography>
               </Box>
           </Stack>
