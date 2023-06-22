@@ -9,7 +9,7 @@ interface Props {
   variable: number;
 }
 
-const YieldCard: React.FC<Props> = ({ title, detail, value, variable, pic }) => {
+const YieldCard: React.FC<Props> = ({ title, coin, value, variable, pic }) => {
   return (
     <Card
       sx={{
@@ -46,7 +46,7 @@ const YieldCard: React.FC<Props> = ({ title, detail, value, variable, pic }) => 
                   {title}
                 </Typography>
                 <Typography variant="body2" color="primary.light">
-                  {variable}
+                  {coin}
                 </Typography>
               </Box>
           </Stack>
