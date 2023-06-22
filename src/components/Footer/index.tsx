@@ -42,7 +42,7 @@ const Footer = () => {
           alignItems="center"
           sx={{ height: "100%" }}
         >
-          <MenuButton>LITEPAPER</MenuButton>
+          <MenuButton>GAME STORY</MenuButton>
 
           <MenuButton>TERMS-&-CONDITIONS</MenuButton>
 

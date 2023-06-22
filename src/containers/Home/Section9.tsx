@@ -1,6 +1,11 @@
-import PersonImg1 from "@/src/assets/images/sec9_person1.svg";
-import PersonImg2 from "@/src/assets/images/sec9_person2.svg";
-import PersonImg3 from "@/src/assets/images/sec9_person3.svg";
+// import PersonImg1 from "@/src/assets/images/sec9_person1.svg";
+// import PersonImg2 from "@/src/assets/images/sec9_person2.svg";
+// import PersonImg3 from "@/src/assets/images/sec9_person3.svg";
+
+import PersonImg1 from "public/Xerxs-Firce-4.jpeg";
+// import PersonImg2 from "public/xerxis-logo.jpg";
+import PersonImg3 from "public/Small-Logo.svg";
+
 import HomeTitle from "@/src/components/HomeTitle";
 import MainButton from "@/src/components/buttons/MainButton";
 import {
@@ -24,7 +29,7 @@ const Section9 = () => {
   const theme = useTheme();
 
   return (
-    <Container maxWidth="md" sx={{ mt: { xs: 25, md: 35 }, pb: 10 }}>
+    <Container maxWidth="md" sx={{ mt: { xs: 25, md: 35 }, pb: 10, bg:PersonImg1 }}>
       <Stack alignItems="center">
         <HomeTitle sx={{ mb: 1.5 }} color={theme.palette.primary.light}>
           THE FAM
@@ -34,7 +39,7 @@ const Section9 = () => {
           variant="h2"
           sx={{ fontWeight: "bold", mb: 3, textAlign: "center" }}
         >
-          Community of Inspiring People
+          Community, AKA Zerxs.
         </Typography>
 
         <Typography
@@ -47,8 +52,9 @@ const Section9 = () => {
           color="text.secondary"
         >
           Meet cool people from all around the Globe.
-          Join a growing community of hackers, innovators and developers
-          building on Cardano. Let's make a dent in the web3 space. Join The Fam.
+          We are cultivating growing community of Plutus Smart Contract developers, 
+          innovators and Web3 developers building on Cardano. 
+          Let's make a dent in the web3 space. Be part of the family.
         </Typography>
 
         <MainButton sx={{ mb: 5 }}>JOIN ON DISCORD</MainButton>
@@ -62,10 +68,10 @@ const Section9 = () => {
         </Typography>
       </Stack>
 
-      <Container maxWidth="sm" sx={{ mt: -10 }}>
+      <Container maxWidth="sm" sx={{ mt: 5 }}>
         <Stack direction="row" alignItems="flex-end" justifyContent="center">
           <StyledPerson src={PersonImg1} alt="Person 1" sx={{ pb: 5 }} />
-          <StyledPerson src={PersonImg2} alt="Person 2" sx={{ width: "60%" }} />
+          {/* <StyledPerson src={PersonImg2} alt="Person 2" sx={{ width: "60%" }} /> */}
 
           <Hidden mdDown>
             <StyledPerson

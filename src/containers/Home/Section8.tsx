@@ -42,8 +42,8 @@ const Section8 = () => {
           sx={{ letterSpacing: "1.5px", maxWidth: 720 }}
           color="text.secondary"
         >
-          Join a growing community of hackers, innovators and developers
-          building on Voltz. Join us, let's make a dent in the defi universe.
+          We are cultivating growing community of Plutus Smart Contract developers, innovators and Web3 developers
+          building on Cardano. The Cardano blochain is the most robust with cheaper transaction fees. (Comming Soon...)
         </Typography>
       </Stack>
 
@@ -53,9 +53,9 @@ const Section8 = () => {
         justifyContent="center"
         spacing={{ xs: 1, sm: 3, md: 5, lg: 8 }}
       >
-        <MenuButton sx={{ fontSize: 16 }}>DEVELOPER DOCS</MenuButton>
+        <MenuButton sx={{ fontSize: 16 }}>JOINS AS DEVELOPER </MenuButton>
 
-        <MenuButton sx={{ fontSize: 16 }}>VOLTZ DOCS</MenuButton>
+        <MenuButton sx={{ fontSize: 16 }}>TECHNICAL DOCS</MenuButton>
       </Stack>
 
       {/* Doors BG */}
