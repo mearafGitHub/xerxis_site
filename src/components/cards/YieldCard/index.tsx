@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Stack, Avatar, Typography, Button, Box } from "@mui/material";
+import { Card, Stack, Typography, Button, Box } from "@mui/material";
 import Image from "next/image";
 
 interface Props {
