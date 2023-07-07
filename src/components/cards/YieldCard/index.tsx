@@ -5,7 +5,7 @@ import Image from "next/image";
 interface Props {
   title: string;
   value: number;
-  pic: string;
+  pic: string | StaticImageData;
 }
 
 const YieldCard: React.FC<Props> = ({ title, value, pic }) => {

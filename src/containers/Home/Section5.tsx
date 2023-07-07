@@ -9,7 +9,6 @@ import LadyArcherWierd from "public/characters/Lady-Archer-Wierd.jpeg";
 import RoyalMan from "public/characters/Royal-Man.jpeg";
 import GuyArcher2 from "public/characters/Guy-Archer2.jpeg";
 import GuyArcher3 from "public/characters/Guy-Archer3.jpeg";
-import MenWarriors from "public/characters/Men-Warriors.jpeg";
 import RoyalArcher from "public/characters/Royal-Archer.jpeg";
 import LadyArcher from "public/characters/Lady-Archer.jpeg";
 import MenWarriors2 from "public/characters/Men-Warriors2.jpeg";
