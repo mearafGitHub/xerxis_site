@@ -4,7 +4,7 @@
 
 import PersonImg1 from "public/Xerxs-Firce-4.jpeg";
 // import PersonImg2 from "public/xerxis-logo.jpg";
-import PersonImg3 from "public/Small-Logo.svg";
+import PersonImg3 from "public/characters/King3.jpeg";
 
 import HomeTitle from "@/src/components/HomeTitle";
 import MainButton from "@/src/components/buttons/MainButton";

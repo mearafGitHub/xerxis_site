@@ -51,7 +51,7 @@ const Section6 = () => {
         <Typography variant="h4" component="span" color="primary.light">
           MONEYTISE YOUR WEAPONS
         </Typography>{" "}
-        - Make your Expereince Profitable
+        - Make your Expereince Productive
       </Typography>
 
       <Typography
