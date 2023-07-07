@@ -28,7 +28,7 @@ const CARDS = [
   { title: "SecretWeapon", value: 4.49, variable: 4.46, pic: SecretWeapon},
   { title: "WariorJets", value: 4.26, variable: 4.2, pic: WariorJets },
   { title: "SecretWeapon", value: 4.49, variable: 4.46, pic: SecretWeapon},
-  { title: "Sword1", value: 4.26, variable: 4.2, pic: Sword1 },
+  { title: "Snipper", value: 4.26, variable: 4.2, pic: Sword1 },
   { title: "TankDesert",  value: 4.49, variable: 4.46, pic: TankDesert},
   { title: "WarJets2", value: 4.26, variable: 4.2, pic: WarJets2 },
   { title: "WarJets", value: 4.26, variable: 4.2, pic: WarJets },
@@ -49,9 +49,9 @@ const Section6 = () => {
     <Container maxWidth="md" sx={{ mt: 15 }}>
       <Typography variant="h4">
         <Typography variant="h4" component="span" color="primary.light">
-          MONEYTISE WEAPONS
+          MONEYTISE YOUR WEAPONS
         </Typography>{" "}
-        - Make your Expereince Productive
+        - Make your Expereince Profitable
       </Typography>
 
       <Typography

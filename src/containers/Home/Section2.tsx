@@ -69,7 +69,7 @@ const Section2 = () => {
         />
 
         <Typography variant="h5" sx={{ mt: -10, mb: 5 }}>
-          Quest for Oassis
+          Quest for Oasis
         </Typography>
 
         <MainButton>Start Playing</MainButton>

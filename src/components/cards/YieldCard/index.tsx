@@ -46,7 +46,7 @@ const YieldCard: React.FC<Props> = ({ title, value, pic }) => {
                   {title}
                 </Typography>
                 <Typography variant="body2" color="primary.light">
-                  
+                  {value}
                 </Typography>
               </Box>
           </Stack>
