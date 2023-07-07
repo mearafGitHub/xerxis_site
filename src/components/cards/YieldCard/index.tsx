@@ -4,7 +4,6 @@ import Image from "next/image";
 
 interface Props {
   title: string;
-  coin: string;
   value: number;
   pic: string;
 }
