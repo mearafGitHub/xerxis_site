@@ -17,18 +17,18 @@ import ManArcherRoyal from "public/characters/Man-Archer-Royal.jpeg";
 import LadyArcher2 from "public/characters/Lady-Archer2.jpeg";
 
 const CARDS = [
-  { title: "LadyArcherRoyal", value: 4.49, pic: LadyArcherRoyal},
-  { title: "LadyArcher2", value: 4.26, pic: LadyArcher2 },
-  { title: "RoyalMenWarriors", value: 4.26, pic: RoyalMenWarriors },
-  { title: "ManPowerRoyal", value: 4.49,  pic: ManPowerRoyal},
-  { title: "LadyArcherWierd", value: 4.26, pic: LadyArcherWierd },
-  { title: "ManArcherRoyal", value: 4.49,  pic: ManArcherRoyal},
-  { title: "RoyalMan", value: 4.26, pic: RoyalMan },
-  { title: "RoyalArcher", value: 4.49,  pic: RoyalArcher},
-  { title: "GuyArcher3", value: 4.26, pic: GuyArcher3 },
-  { title: "LadyArcher", value: 4.26, pic: LadyArcher },
-  { title: "MenWarriors2", value: 4.26, pic: MenWarriors2 },
-  { title: "GuyArcher3", value: 4.49,  pic: GuyArcher2},
+  { title: "LadyArcherRoyal", value: 4.49, pic: {LadyArcherRoyal}},
+  { title: "LadyArcher2", value: 4.26, pic: {LadyArcher2} },
+  { title: "RoyalMenWarriors", value: 4.26, pic: {RoyalMenWarriors} },
+  { title: "ManPowerRoyal", value: 4.49,  pic: {ManPowerRoyal}},
+  { title: "LadyArcherWierd", value: 4.26, pic: {LadyArcherWierd} },
+  { title: "ManArcherRoyal", value: 4.49,  pic: {ManArcherRoyal}},
+  { title: "RoyalMan", value: 4.26, pic: {RoyalMan} },
+  { title: "RoyalArcher", value: 4.49,  pic: {RoyalArcher}},
+  { title: "GuyArcher3", value: 4.26, pic: {GuyArcher3} },
+  { title: "LadyArcher", value: 4.26, pic: {LadyArcher} },
+  { title: "MenWarriors2", value: 4.26, pic: {MenWarriors2} },
+  { title: "GuyArcher3", value: 4.49,  pic: {GuyArcher2}},
 ];
 
 const Section5 = () => {
