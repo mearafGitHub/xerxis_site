@@ -29,7 +29,7 @@ const Section3 = () => {
         </Typography>
 
         <Typography sx={{ letterSpacing: "1.5px" }} color="text.secondary">
-          Xexis is Web 3 game platform, leveraging the Cardano blockchain.
+          Xexis is Web 3 game platform, leveraging the Ethereum and Cardano blockchain.
           The game is set on a planet called Xerxis, where a mysterious event has unleashed a wave of cosmic energy 
           that transformed the landscape and the inhabitants. Some people gained superpowers, some became mutated monsters, 
           and some remained normal. Thousand years ago a brave cross-planetary travler who discovered the planet, 
