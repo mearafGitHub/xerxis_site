@@ -42,8 +42,9 @@ const Section8 = () => {
           sx={{ letterSpacing: "1.5px", maxWidth: 720 }}
           color="text.secondary"
         >
-          We are cultivating growing community of Plutus Smart Contract developers, innovators and Web3 developers
-          building on Cardano. The Cardano blochain is the most robust with cheaper transaction fees. (Comming Soon...)
+          We are cultivating a growing community of Eth Smart Contract developers, innovators, and Web3 developers
+          building on Ethereum. The Ethereum network provides a wide variety of L2 that are robust with cheaper transaction fees. 
+          (Comming Soon...)
         </Typography>
       </Stack>
 
