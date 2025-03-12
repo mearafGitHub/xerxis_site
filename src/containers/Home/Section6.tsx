@@ -58,16 +58,10 @@ const Section6 = () => {
         sx={{ letterSpacing: "1.5px", maxWidth: 720 }}
         color="text.secondary"
       >
-        Game Weapons can be sold at in-game transaction as well as on the market section of the official game website: "https://www.xerxis.io/game/markets/" 
+        Game Weapons can be sold at in-game transactions as well as on the market section of the official game website. Coming Soon." 
       </Typography>
 
-      <Grid container spacing={3} sx={{ mt: 3 }}>
-        {CARDS.map((item, i) => (
-          <Grid item xs={12} sm={6} md={4} key={i}>
-            <YieldCard {...item} />
-          </Grid>
-        ))}
-      </Grid>
+     
     </Container>
   );
 };
